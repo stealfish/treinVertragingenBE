@@ -1,0 +1,5 @@
+
+
+var clientId = '785343024566-rant69kgk0ripkkq2nhq66f8e30djvok.apps.googleusercontent.com';
+var apiKey = 'AIzaSyDWajp-cY8Q2P-yK57hUh0Zu95J9sDH7Ik';
+var scopes = 'https://www.googleapis.com/auth/plus.me';

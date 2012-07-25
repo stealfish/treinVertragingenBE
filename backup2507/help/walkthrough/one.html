@@ -1,0 +1,61 @@
+<html class="ui-mobile"><head><base href="http://jquerymobile.com/demos/1.1.0/docs/pages/dialog.html">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Mededeling</title>
+<!-- passing parameters plugin between pages using ajax-->
+		<script src="http://raw.github.com/jblas/jquery-mobile-plugins/35fcf54e2af380aa0e98e9f384572b02f58a1ea1/page-params/jqm.page.params.js"></script>
+				
+</head>
+<body class="ui-mobile-viewport ui-overlay-a">
+
+<div class="type-interior ui-page ui-body-c" data-role="page" data-url="/demos/1.1.0/docs/api/globalconfig.html" tabindex="0" style="min-height: 883px;">
+
+	<div data-theme="f" data-role="header" class="ui-header ui-bar-f" role="banner">
+		<h1 class="ui-title" role="heading" aria-level="1">Mededeling</h1>
+		<a data-direction="reverse" data-iconpos="notext" data-icon="home" href="../../" class="ui-btn-left ui-btn ui-btn-up-f ui-shadow ui-btn-corner-all ui-btn-icon-notext" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="f" title="Home"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Home</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a>
+		<a data-transition="fade" data-rel="dialog" data-iconpos="notext" data-icon="search" href="../nav.html" class="ui-btn-right ui-btn ui-btn-up-f ui-shadow ui-btn-corner-all ui-btn-icon-notext" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="f" title="Search"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Search</span><span class="ui-icon ui-icon-search ui-icon-shadow">&nbsp;</span></span></a>
+	</div><!-- /header -->
+
+	<div data-theme="c" data-role="content" class="ui-content ui-body-c" role="main">
+
+
+<script type="text/javascript">
+
+	//Get url vars
+	//De treinvertraging werd succesvol geregistreerd
+	$(document).ready(function(){
+		console.log("errorid:" + getCookie('errorID'));
+		$("#msg").html("Beste reiziger, Bedankt alvast voor je interesse in deze website, Omdat het je eerste keer is, zal ik u de weg tonen doorheen deze website. Ik geef je een overzicht van alle functies en opties. Daarna kan je zelf aan de slag. Alvast een vlot gebruik en treinreis gewenst.");
+	});
+
+
+
+</script>
+	
+
+		<div class="content-primary">
+
+	</div><!--/content-secondary -->
+
+	<div class="content-secondary">
+
+	</div>
+
+</div><!-- /content -->
+
+<div data-theme="c" class="footer-docs ui-footer ui-bar-c" data-role="footer" role="contentinfo">
+		<p id="msg"></p>
+		<h1>Bent u al geregistreerd?</h1>
+		<p>Volgens ons gebruikt u deze website de eerste maal op dit toestel, mogen wij u hierom vragen om hieronder uw pincode in te geven? </p>
+		<form id="frmPinVerificiation">
+			<input type="number" name="txtPin" id="txtPin" />
+			
+		</form>
+<a class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-e" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" href="docs-dialogs.html" data-role="button" data-rel="back" data-theme="e"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text" style="">Sluiten</span></span></a></div>
+<a class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-e" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" href="docs-dialogs.html" data-role="button" data-rel="back" data-theme="e"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text" style="">Verder gaan</span></span></a></div>
+
+</div><!-- /page -->
+
+
+
+	</div></div></body></html>
